@@ -1,12 +1,7 @@
 pipeline {
-  agent {
-    docker {
-      image 'python:2.7-slim'
-    }
-
-  }
+  agent none
   stages {
-    stage('') {
+    stage('error') {
       steps {
         echo 'Hello World'
       }
